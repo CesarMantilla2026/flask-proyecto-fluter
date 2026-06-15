@@ -1,0 +1,39 @@
+# Entornos virtuales locales (Aislación de dependencias)
+.venv/
+venv/
+ENV/
+env/
+
+# Caché de Python (Archivos compilados automáticamente)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribución / Empaquetado
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de configuración del sistema o editores (Opcional)
+.DS_Store
+.vscode/
+.idea/
+
+# Gráficos temporales o salidas locales generadas por código
+static/uploads/*
+!static/uploads/.gitkeep
